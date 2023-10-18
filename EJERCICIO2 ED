@@ -1,0 +1,21 @@
+import java.util.Scanner;
+	
+	public class circulo {
+
+	    public static void main(String[] args) {
+	        // Declarar la constante PI como 3,1416
+	        final double PI = 3.1416;
+
+	        // Pedir el radio de un círculo por consola
+	        Scanner scanner = new Scanner(System.in);
+	        System.out.println("Introduce el radio del círculo:");
+	        double radio = scanner.nextDouble();
+
+	        // Calcular el área del círculo
+	        double area = 2 * PI * radio;
+
+	        // Mostrar el área por pantalla
+	        System.out.println("El área del círculo es: " + area);
+	    }
+	}
+
